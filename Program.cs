@@ -1,9 +1,5 @@
 ﻿Console.WriteLine("Введите трехзначное число.");
-    while(true)
-    {
-        string input = Console.ReadLine();
+
+    string input = Console.ReadLine();
     
-            Console.WriteLine("{0}->{1}",input, input[1]);
-        
-            break;
-    }
+    Console.WriteLine("{0}->{1}",input, input[1]);
